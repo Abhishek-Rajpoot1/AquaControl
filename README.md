@@ -57,7 +57,7 @@ Example:
 
 ---
 
-▶️ How to Run
+## ▶️ How to Run
 
 - Clone the repository from GitHub
 - Open project in NetBean
@@ -69,6 +69,5 @@ Example:
 ## 👨‍💻 Author 
 **Abhishek Rajpoot**
 GitHub: https://github.com/Abhishek-Rajpoot1
-
 
 
