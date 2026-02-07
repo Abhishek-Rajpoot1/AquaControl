@@ -68,7 +68,7 @@ Example:
 
 ## 👨‍💻 Author 
 
-**Abhishek Rajpoot**
+**Abhishek Rajpoot**<br>
 GitHub: https://github.com/Abhishek-Rajpoot1
 
 
