@@ -57,8 +57,13 @@ Example:
 
 ---
 
-## ▶️ How to Run the Project
+▶️ How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Abhishek-Rajpoot1/AquaControl.git
+- Clone the repository from GitHub
+- Open project in NetBean
+- Configure MySQL database
+- Run <strong>Main.java
+-----
+👨‍💻 Author
+Abhishek Rajpoot
+GitHub: https://github.com/Abhishek-Rajpoot1
