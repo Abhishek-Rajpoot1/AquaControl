@@ -63,7 +63,9 @@ Example:
 - Open project in NetBean
 - Configure MySQL database
 - Run <strong>Main.java
------
+  
+---
+
 ##👨‍💻 Author 
 **Abhishek Rajpoot**
 GitHub: https://github.com/Abhishek-Rajpoot1
