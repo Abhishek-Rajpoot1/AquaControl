@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AquaControl | Project Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f2a3d;
+            color: #ffffff;
+        }
+        header {
+            background: #0b1f2d;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin-top: 8px;
+            color: #cfe8ff;
+        }
+        .container {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #4fa3d1;
+            padding-bottom: 10px;
+            color: #e6f6ff;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #163a52;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #9ad7ff;
+        }
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .screenshots img {
+            width: 100%;
+            border-radius: 8px;
+            border: 2px solid #2f6f91;
+        }
+        .note {
+            background: #122f44;
+            padding: 15px;
+            border-left: 4px solid #4fa3d1;
+            margin-top: 15px;
+        }
+        footer {
+            background: #0b1f2d;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #bcdff5;
+        }
+        a {
+            color: #7fd3ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AQUA CONTROL</h1>
+    <p>Java Full Stack Desktop Application – UI Demo</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📌 Project Overview</h2>
+        <p>
+            <strong>AquaControl</strong> is a Java-based full stack desktop application developed to manage
+            water supply operations including customers, stock, orders, reports, and admin controls.
+            This page is a <strong>UI demo</strong> created for project presentation and GitHub Pages.
+        </p>
+        <div class="note">
+            ⚠️ This is a desktop application (Java Swing + Database), so it cannot run live on GitHub.
+            This demo showcases the UI and features only.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Tech Stack</h2>
+        <ul>
+            <li>Frontend: Java Swing / AWT</li>
+            <li>Backend: Core Java</li>
+            <li>Database: MySQL</li>
+            <li>IDE: NetBeans</li>
+            <li>Version Control: Git & GitHub</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>✨ Key Features</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Customer Management</h3>
+                <p>Add, update, delete, and search customers.</p>
+            </div>
+            <div class="card">
+                <h3>Stock Management</h3>
+                <p>Manage water stock with add, update, view, and delete options.</p>
+            </div>
+            <div class="card">
+                <h3>Order Processing</h3>
+                <p>Take new orders and view previous orders.</p>
+            </div>
+            <div class="card">
+                <h3>Reports</h3>
+                <p>Customer-wise, date-wise, month-wise, and year-wise reports.</p>
+            </div>
+            <div class="card">
+                <h3>User/Admin</h3>
+                <p>Admin management, password change, logout, and exit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🖼️ Application Screenshots</h2>
+        <p>Add your project screenshots in a <code>screenshots</code> folder and link them here.</p>
+        <div class="screenshots">
+            <img src="screenshots/dashboard.png" alt="Dashboard">
+            <img src="screenshots/customer.png" alt="Customer Module">
+            <img src="screenshots/stock.png" alt="Stock Module">
+            <img src="screenshots/order.png" alt="Order Module">
+            <img src="screenshots/report.png" alt="Report Module">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>▶️ How to Run</h2>
+        <ol>
+            <li>Clone the repository from GitHub</li>
+            <li>Open project in NetBeans</li>
+            <li>Configure MySQL database</li>
+            <li>Run <strong>Main.java</strong></li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>👨‍💻 Author</h2>
+        <p>
+            <strong>Abhishek Rajpoot</strong><br>
+            GitHub: <a href="https://github.com/Abhishek-Rajpoot1" target="_blank">Abhishek-Rajpoot1</a>
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 AquaControl Project | Java Full Stack Desktop Application
+</footer>
+
+</body>
+</html>
