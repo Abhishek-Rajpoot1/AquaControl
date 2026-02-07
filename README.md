@@ -64,6 +64,7 @@ Example:
 - Configure MySQL database
 - Run <strong>Main.java
 -----
-👨‍💻 Author
+##👨‍💻 Author
+
 Abhishek Rajpoot
 GitHub: https://github.com/Abhishek-Rajpoot1
